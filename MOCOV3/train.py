@@ -104,7 +104,7 @@ parser = argparse.ArgumentParser(description='PyTorch ImageNet Training', add_he
 # Dataset parameters
 group = parser.add_argument_group('Dataset parameters')
 # Keep this argument outside of the dataset group because it is positional.
-parser.add_argument('--data_dir', type=str, default='/usr/local/Huangshuqi/ImageData/flower_data',
+parser.add_argument('--data_dir', type=str, default='/flower_data',
                     help='path to dataset')
 parser.add_argument('--num_classes', type=int, default=5,
                     help='num_classes of your dataset')
